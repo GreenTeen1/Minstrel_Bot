@@ -36,3 +36,8 @@ ECHO ERROR: Python has either not been installed or not added to your PATH.
 
 :end
 PAUSE
+
+)
+
+// THIS  MUST  BE  THIS  WAY
+client.login(process.env.BOT_TOKEN);
